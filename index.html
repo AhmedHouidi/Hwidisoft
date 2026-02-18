@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unity Market Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <h1>Unity Market Hub</h1>
+      <nav>
+        <a href="#catalog">Catalog</a>
+        <a href="#why">Why Buy Here</a>
+        <a href="#sell">Sell Your Asset</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Marketplace for Unity Creators</p>
+          <h2>Sell your Unity projects like the Unity Asset Store</h2>
+          <p>
+            Launch your own asset marketplace with pricing, categories, and direct checkout links.
+            Ideal for templates, complete projects, tools, and game-ready art packs.
+          </p>
+          <a class="btn" href="#catalog">Browse Projects</a>
+        </div>
+        <div class="hero-card">
+          <h3>Featured Bundle</h3>
+          <p>3D RPG Starter Kit</p>
+          <strong>$89</strong>
+          <small>Includes source + docs + demo scenes</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="catalog">
+      <div class="section-heading">
+        <h3>Popular Unity Projects</h3>
+        <label for="category">Filter:</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="templates">Templates</option>
+          <option value="systems">Systems</option>
+          <option value="art">Art</option>
+        </select>
+      </div>
+      <div id="cards" class="grid"></div>
+    </section>
+
+    <section class="container split" id="why">
+      <div>
+        <h3>Why this setup works</h3>
+        <ul>
+          <li>Clean storefront focused on conversion</li>
+          <li>Category filtering for quick discovery</li>
+          <li>Direct "Buy now" links for instant checkout</li>
+          <li>Fast static hosting ready (Netlify, Vercel, GitHub Pages)</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h4>Next steps to go live</h4>
+        <ol>
+          <li>Connect Stripe/Gumroad checkout links</li>
+          <li>Add product screenshots and trailers</li>
+          <li>Attach license terms and support policy</li>
+          <li>Set up analytics + email capture</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="container" id="sell">
+      <div class="cta">
+        <h3>Want to start selling today?</h3>
+        <p>Use this page as your MVP storefront and customize it with your branding.</p>
+        <a class="btn secondary" href="mailto:you@example.com">Contact Seller</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Unity Market Hub. Built for independent Unity creators.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
