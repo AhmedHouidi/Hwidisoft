@@ -16,13 +16,13 @@ Extracted asset details:
 4. Physics pickup system — $8  
    URL: https://assetstore.unity.com/packages/package/329792  
    Image: https://assetstorev1-prd-cdn.unity3d.com/key-image/85316a97-67e0-4e2c-9f69-de238ff6fa2c.jpg?v=1
-5. Quick Editor Script — $20.99  
+5. Quick Editor Script — Free  
    URL: https://assetstore.unity.com/packages/package/328410  
    Image: https://assetstorev1-prd-cdn.unity3d.com/key-image/3b2d4b97-8f91-4895-89c4-6a09f3d81e2a.jpg?v=1
-6. plasma Shader — $19.99  
+6. plasma Shader — Free  
    URL: https://assetstore.unity.com/packages/package/328840  
    Image: https://assetstorev1-prd-cdn.unity3d.com/key-image/36ab82d3-4dcf-460b-a7b5-cf5ecf88995e.png?v=1
-7. One Click Add Water -Stylized Water Shader — $12  
+7. One Click Add Water -Stylized Water Shader — Free  
    URL: https://assetstore.unity.com/packages/package/305970  
    Image: https://assetstorev1-prd-cdn.unity3d.com/key-image/ff44e728-8745-4801-89e4-437b77ffec6a.jpg?v=1
 

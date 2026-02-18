@@ -34,7 +34,7 @@ const products = [
   {
     name: 'Quick Editor Script',
     category: 'systems',
-    price: '$20.99',
+    price: 'Free',
     imageUrl: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/3b2d4b97-8f91-4895-89c4-6a09f3d81e2a.jpg?v=1',
     description: 'Unity Asset Store listing from my publisher page.',
     buyUrl: 'https://assetstore.unity.com/packages/package/328410'
@@ -42,7 +42,7 @@ const products = [
   {
     name: 'plasma Shader',
     category: 'art',
-    price: '$19.99',
+    price: 'Free',
     imageUrl: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/36ab82d3-4dcf-460b-a7b5-cf5ecf88995e.png?v=1',
     description: 'Unity Asset Store listing from my publisher page.',
     buyUrl: 'https://assetstore.unity.com/packages/package/328840'
@@ -50,7 +50,7 @@ const products = [
   {
     name: 'One Click Add Water -Stylized Water Shader',
     category: 'art',
-    price: '$12',
+    price: 'Free',
     imageUrl: 'https://assetstorev1-prd-cdn.unity3d.com/key-image/ff44e728-8745-4801-89e4-437b77ffec6a.jpg?v=1',
     description: 'Unity Asset Store listing from my publisher page.',
     buyUrl: 'https://assetstore.unity.com/packages/package/305970'
