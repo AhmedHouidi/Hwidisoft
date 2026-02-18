@@ -1,6 +1,6 @@
-# Unity Market Hub
+# My Unity Projects Storefront
 
-A lightweight storefront template you can use to sell Unity projects similarly to the Unity Asset Store.
+A lightweight personal storefront template to sell your own Unity projects in one place.
 
 ## Run locally
 
@@ -12,6 +12,7 @@ Then open <http://localhost:8000>.
 
 ## Customize
 
-- Replace products in `script.js` with your own Unity assets.
+- Replace products in `script.js` with your own Unity projects.
 - Set real payment URLs (`Stripe`, `Gumroad`, etc.) in each product `buyUrl`.
+- Replace `you@example.com` with your real support email in `index.html`.
 - Add screenshots/videos and customer reviews.
