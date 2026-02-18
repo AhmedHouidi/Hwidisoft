@@ -1,31 +1,52 @@
 const products = [
   {
-    name: 'Top-Down Shooter Template',
-    category: 'templates',
-    price: 39,
-    description: 'My complete gameplay loop with enemies, weapons, and progression.',
-    buyUrl: 'https://assetstore.unity.com/publishers/105962'
-  },
-  {
-    name: 'RPG Save & Inventory System',
+    name: 'Planar Reflection 1',
     category: 'systems',
-    price: 29,
-    description: 'My ScriptableObject-based inventory with robust JSON save/load.',
-    buyUrl: 'https://assetstore.unity.com/publishers/105962'
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/325879'
   },
   {
-    name: 'Stylized Fantasy Environment Pack',
+    name: 'Planar reflection built-in',
+    category: 'systems',
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/331878'
+  },
+  {
+    name: 'ESSW EASY SETUP STYLIZED WATER 2.0',
     category: 'art',
-    price: 24,
-    description: 'My modular environment assets, terrain materials, and demo scene.',
-    buyUrl: 'https://assetstore.unity.com/publishers/105962'
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/317597'
   },
   {
-    name: 'Mobile Runner Starter Kit',
-    category: 'templates',
-    price: 34,
-    description: 'My mobile-ready endless runner foundation with clean architecture.',
-    buyUrl: 'https://assetstore.unity.com/publishers/105962'
+    name: 'Physics pickup system',
+    category: 'systems',
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/329792'
+  },
+  {
+    name: 'Quick Editor Script',
+    category: 'systems',
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/328410'
+  },
+  {
+    name: 'plasma Shader',
+    category: 'art',
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/328840'
+  },
+  {
+    name: 'One Click Add Water -Stylized Water Shader',
+    category: 'art',
+    price: 0,
+    description: 'Unity Asset Store listing from my publisher page.',
+    buyUrl: 'https://assetstore.unity.com/packages/package/305970'
   }
 ];
 
@@ -47,8 +68,8 @@ function render(filter = 'all') {
           <h4>${p.name}</h4>
           <p class="meta">${p.category.toUpperCase()} · CREATED BY ME</p>
           <p>${p.description}</p>
-          <p class="price">$${p.price}</p>
-          <a class="btn secondary" href="${p.buyUrl}" target="_blank" rel="noreferrer">Buy on Unity Asset Store</a>
+          <p class="price">View price on Unity Asset Store</p>
+          <a class="btn secondary" href="${p.buyUrl}" target="_blank" rel="noreferrer">Open Asset</a>
         </article>
       `
     )

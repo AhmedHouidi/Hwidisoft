@@ -20,3 +20,8 @@ Then open <http://localhost:8000>.
 ## Current publisher profile
 
 - https://assetstore.unity.com/publishers/105962
+
+
+## Imported asset names
+
+- See `ASSETS_FROM_UNITY.md` for asset names and direct URLs extracted from your Unity publisher page.
