@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Unity Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <h1>My Unity Projects</h1>
+      <nav>
+        <a href="#catalog">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Personal Unity Storefront</p>
+          <h2>Buy my Unity projects, templates, and systems</h2>
+          <p>
+            This is my personal website where I sell only my own Unity work.
+            You can browse my official publisher profile here:
+            <a href="https://assetstore.unity.com/publishers/105962" target="_blank" rel="noreferrer">Unity Asset Store Publisher Page</a>.
+          </p>
+          <a class="btn" href="#catalog">View My Projects</a>
+          <a class="btn secondary" href="https://assetstore.unity.com/publishers/105962" target="_blank" rel="noreferrer">Visit My Unity Asset Store Page</a>
+        </div>
+        <div class="hero-card">
+          <h3>Official Publisher</h3>
+          <p>Unity Publisher ID: 105962</p>
+          <strong>Verified Page</strong>
+          <small>Browse my complete catalog and latest updates on Unity Asset Store</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="catalog">
+      <div class="section-heading">
+        <h3>My Unity Projects</h3>
+        <label for="category">Filter:</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="templates">Templates</option>
+          <option value="systems">Systems</option>
+          <option value="art">Art</option>
+        </select>
+      </div>
+      <div id="cards" class="grid"></div>
+    </section>
+
+    <section class="container split" id="about">
+      <div>
+        <h3>Why buy from my personal store</h3>
+        <ul>
+          <li>Every item is created by me</li>
+          <li>Focused, well-documented code and assets</li>
+          <li>Direct support and updates from the creator</li>
+          <li>Same creator identity as my Unity publisher page</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h4>Where to buy</h4>
+        <ol>
+          <li>Buy directly from links on this page</li>
+          <li>Or buy from my Unity Asset Store publisher profile</li>
+          <li>Check license details and changelog updates</li>
+          <li>Contact me directly for support questions</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <div class="cta">
+        <h3>Need help before purchasing?</h3>
+        <p>Message me directly for questions about fit, features, or integration.</p>
+        <a class="btn secondary" href="https://assetstore.unity.com/publishers/105962" target="_blank" rel="noreferrer">Open My Unity Asset Store Page</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> My Unity Projects. All products are created by me.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
